@@ -7,7 +7,7 @@ if ($user->hasErrors()) {
   responseError(500, $user->getErrors());
 }
 
-// csrf-токен
+// csrf-токен для защиты от подделки запросов
 session_start();
 if (empty($_SESSION['csrf_token'])) {
   $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
