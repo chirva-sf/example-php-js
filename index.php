@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && !isset($_GET['user_id'])) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="csrf-token" content="<?php echo $csrf_token; ?>">
-  <title>Практическая работа 20.6</title>
+  <title>Пример PHP и JS</title>
   <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/styles.css?v=<?php echo microtime(true); ?>">
